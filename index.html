@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;500;700&display=swap" rel="stylesheet">
+        <title>Afla cat de prost esti</title>
+        <style>
+            
+            body{
+                background-image: url('cer.jpg');
+                background-attachment: fixed;
+                background-size: 100% 100%;
+            }
+
+            .tot{
+                height: fit-content;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                background:transparent;
+                backdrop-filter: blur(15px);
+                width: 600px;
+                padding-bottom: 50px;
+                margin-top: 100px;
+                border-style: solid;
+                border-width: 2px;
+                border-color: black;
+                border-radius: 20px;
+                box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.5);
+            }
+
+            .toate{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .h1{
+                text-align: center;
+                font-size: 40px;
+                font-family: 'M PLUS Rounded 1c', sans-serif;
+            }
+
+
+            .detalii{
+              
+                font-family: 'M PLUS Rounded 1c', sans-serif;
+                font-size: large;
+                text-align: center;
+                width: 500px;
+            }
+
+            .int{
+                font-family: 'M PLUS Rounded 1c', sans-serif;
+                font-size: xx-large;
+                text-align: center;
+                margin-bottom: 0px;
+            }
+
+            .despre-tine{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 20px;
+            }
+
+            input:focus ~ label,
+            input:focus ~ :valid{
+                top: -50px;
+            }
+
+            .nume{
+                background-color: transparent;
+                color: whitesmoke;
+                border:none;
+                border-top: 2px solid greenyellow;
+                border-bottom: 2px solid greenyellow;
+                outline:none;
+                font-family: 'M PLUS Rounded 1c', sans-serif;
+                font-size: medium;
+                padding-top: 10px;
+                padding-left: 10px;
+                padding-bottom: 10px;
+                margin-bottom: 30px;
+                transition: box-shadow 0.35s;
+            }
+
+            .nume:hover{
+                box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.4);
+            }
+
+
+            .nastere{
+                background:transparent;
+                color: whitesmoke;
+                border:none;
+                border-top: 2px solid greenyellow;
+                border-bottom: 2px solid greenyellow;
+                border-color:greenyellow;
+                font-family: 'M PLUS Rounded 1c', sans-serif;
+                font-size: medium;
+                margin-left: 20px;
+                padding-top: 10px;
+                padding-left: 10px;
+                padding-bottom: 10px;
+                margin-bottom: 30px;
+                transition: box-shadow 0.35s;
+            }
+
+            .nastere:hover{
+                box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.4);
+            }
+
+            .Raspunde{
+                display: flex;
+                justify-content: center;
+
+                text-align: center;
+                font-family: 'M PLUS Rounded 1c', sans-serif;
+                font-size: large;
+                padding-left: 30px;
+                padding-right: 30px;
+            }
+
+            .intrebari{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+        
+            }
+            
+            .prost-te-crezi{
+                background-color: greenyellow;
+                color: black;
+                border:none;
+                font-family: 'M PLUS Rounded 1c', sans-serif;
+                font-size:medium;
+                padding-top: 10px;
+                padding-left: 10px;
+                padding-bottom: 10px;
+                padding-right: 10px;
+                border-radius: 9px;
+                transition: box-shadow 0.35s;
+            }
+            
+            .prost-te-crezi:hover{
+                box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.4);
+            }
+
+            .l{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                font-family: 'M PLUS Rounded 1c', sans-serif;
+                align-items: center;
+            }
+
+            .ll{
+                font-family:'M PLUS Rounded 1c', sans-serif;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+            }
+
+            
+            .but{
+                background-color: greenyellow;
+                color: black;
+                border:none;
+                font-family: 'M PLUS Rounded 1c', sans-serif;
+                font-size:large;
+                padding-top: 10px;
+                padding-left: 30px;
+                padding-bottom: 10px;
+                padding-right: 30px;
+                border-radius: 9px;
+                transition: opacity 0.35s, box-shadow 0.35s;
+            }
+
+            .but:hover{
+                box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.4);
+            }
+
+            .but:active{
+                opacity: 0.5;
+            }
+
+            .dot{
+                height: 15px;
+                width: 15px;
+                background-color: greenyellow;
+                border-radius: 50%;
+                display: inline-block;
+            }
+
+        </style>
+    </head>
+
+    <body style="padding-bottom: 500px;">
+        <div class=toate>
+            <div class="despre-tine">
+                <!--img src="vulpe.jpg" alt="vulpe"-->
+            </div>
+
+            <div class="tot">
+                    <div class="h1">
+                        <h4>
+                            Afla cat de prost esti 🤪
+                        </h4>
+                    </div>
+        
+                    <div class="detalii">
+                           <p>
+                            Testul nostru te ajuta sa realizezi cat de prost esti cu advarat.
+                            Mai mult de atat te vom ajuta sa tratezi prostia si sa devii destept.
+                            Esti gata sa faci pasul catre o schimbare radicala in viata ta? 
+                           </p>
+                    </div>
+
+
+
+
+
+                <div class="int">
+                    <p>
+                        Pentru a incepe vom avea nevoie de cateva detalii despre tine:
+                    </p>
+                </div>
+                    
+    
+                <div class="despre-tine">
+                    <input type="text" class="nume" placeholder="Nume complet">
+                    <input type="text" class="nastere" placeholder="Orasul natal">
+                </div>
+    
+    
+    
+    
+                <div class="Raspunde">
+                    Bun. Sa incepem! Raspunde la urmatoarele intrebari pentru a afla cat de prost esti:
+                </div>
+    
+    
+    
+    
+                <div class="intrebari">
+    
+    
+                    <div class="ll">
+                        <p>
+                           1. De la 1 pana la 10 cat de prost te consideri?
+                        </p>
+                        <input type="number" class="prost-te-crezi" placeholder="0">
+                    </div>
+    
+    
+                    <div class="ll">
+                        <p>
+                           2. Cine stie sa conduce mai bine?
+                        </p> 
+                        <input type="text" class="prost-te-crezi" placeholder="Raspuns">
+                    </div>
+                    
+    
+    
+                    <div class="ll">
+                        <p>
+                           3. Care se supara mai mare?
+                        </p>
+                        <input type="text" class="prost-te-crezi" placeholder="Raspuns">
+                    </div>
+    
+    
+    
+                    <div class="ll">
+                        <p>
+                          4. Cine se iubeste mai mult decat voi dintre doi?
+                        </p>
+                        <input type="text" class="prost-te-crezi" placeholder="Raspuns">
+                    </div>   
+                    
+                    
+                    <div>
+                        <p class="special">
+                            <span class="dot"></span> Apasa butonul de mai jos 👇 pentru a afisa raspunsul.
+                        </p>
+                        <button class="but">
+                            Afiseaza rezultatul ✅
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+      
+    </body>
+</html>
